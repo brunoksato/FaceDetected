@@ -47,7 +47,6 @@ namespace ApsApllication
 
                 for (int tf = 1; tf < NumLabels + 1; tf++)
                 {
-                    //LoadFaces = "face" + tf + ".bmp";
                     LoadFaces = "face" + tf + ".bmp";
                     trainingImages.Add(new Image<Gray, byte>(Application.StartupPath + "/TrainedFaces/" + LoadFaces));
                     labels.Add(Labels[tf]);
@@ -56,7 +55,7 @@ namespace ApsApllication
             }
             catch (Exception)
             {
-                MessageBox.Show("Nada no banco de dados binário, adicione pelo menos um dedo (Basta treinar o protótipo com o botão Adicionar dedo).", "Carregar Dedos", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Nada no banco de dados binário, adicione pelo menos uma Face (Basta treinar o protótipo com o botão Adicionar Face).", "Carregar Dedos", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
         }
 
@@ -122,7 +121,7 @@ namespace ApsApllication
             }
             catch
             {
-                MessageBox.Show("Permitir a detecção de Face", "Foto Erro", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Não achou nenhuma Face", "Foto Erro", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
         }
 
