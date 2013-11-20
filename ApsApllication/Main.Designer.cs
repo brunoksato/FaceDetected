@@ -56,7 +56,7 @@
             this.groupBox2.Controls.Add(this.button1);
             this.groupBox2.Location = new System.Drawing.Point(539, 23);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(209, 242);
+            this.groupBox2.Size = new System.Drawing.Size(246, 242);
             this.groupBox2.TabIndex = 12;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Results: ";
@@ -68,9 +68,9 @@
             this.label5.ForeColor = System.Drawing.Color.Black;
             this.label5.Location = new System.Drawing.Point(9, 23);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(197, 15);
+            this.label5.Size = new System.Drawing.Size(129, 15);
             this.label5.TabIndex = 17;
-            this.label5.Text = "Persons present in the scene:";
+            this.label5.Text = "Pessoas Presentes";
             // 
             // label4
             // 
@@ -79,16 +79,16 @@
             this.label4.ForeColor = System.Drawing.Color.Blue;
             this.label4.Location = new System.Drawing.Point(9, 53);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(61, 19);
+            this.label4.Size = new System.Drawing.Size(73, 19);
             this.label4.TabIndex = 16;
-            this.label4.Text = "Nobody";
+            this.label4.Text = "Nenhuma";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Red;
-            this.label3.Location = new System.Drawing.Point(163, 124);
+            this.label3.Location = new System.Drawing.Point(199, 124);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(16, 16);
             this.label3.TabIndex = 15;
@@ -100,9 +100,9 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(10, 92);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(179, 15);
+            this.label2.Size = new System.Drawing.Size(212, 15);
             this.label2.TabIndex = 14;
-            this.label2.Text = "Number of faces detected: ";
+            this.label2.Text = "Numero de Faces Reconhecida:";
             // 
             // button1
             // 
@@ -111,7 +111,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(110, 53);
             this.button1.TabIndex = 2;
-            this.button1.Text = "1. Detect and recognize";
+            this.button1.Text = "1. Reconhecimento";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
@@ -126,7 +126,7 @@
             this.groupBox1.Size = new System.Drawing.Size(184, 242);
             this.groupBox1.TabIndex = 11;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Training: ";
+            this.groupBox1.Text = "Foto:";
             // 
             // label1
             // 
@@ -156,11 +156,11 @@
             // button2
             // 
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button2.Location = new System.Drawing.Point(87, 201);
+            this.button2.Location = new System.Drawing.Point(67, 205);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(87, 31);
             this.button2.TabIndex = 3;
-            this.button2.Text = "2. Add face";
+            this.button2.Text = "2. Adicionar Face";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
@@ -177,7 +177,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(770, 281);
+            this.ClientSize = new System.Drawing.Size(797, 281);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.imageBoxFrameGrabber);
