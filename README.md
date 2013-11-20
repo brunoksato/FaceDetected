@@ -9,9 +9,9 @@ Ciencias Da Computação
 
 
 Contribuidores : 
-Elisa 
-Bruno
-Leticia
+Elisa, 
+Bruno,
+Leticia,
 Eliezer.
 
 
