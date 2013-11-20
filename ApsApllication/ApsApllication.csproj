@@ -74,6 +74,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="bin\Debug\ApsApllication.exe.config" />
+    <None Include="bin\Debug\ApsApllication.vshost.exe.config" />
+    <None Include="bin\Debug\ApsApllication.vshost.exe.manifest" />
     <None Include="CodeMap\EigenObjectMap.dgml" />
     <None Include="CodeMap\MainMap.dgml" />
     <None Include="Properties\Settings.settings">
@@ -89,7 +92,46 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="bin\Debug\ApsApllication.exe" />
+    <Content Include="bin\Debug\ApsApllication.pdb" />
+    <Content Include="bin\Debug\ApsApllication.vshost.exe" />
+    <Content Include="bin\Debug\cv110.dll" />
+    <Content Include="bin\Debug\cvaux110.dll" />
+    <Content Include="bin\Debug\cvextern.dll" />
+    <Content Include="bin\Debug\cxcore110.dll" />
+    <Content Include="bin\Debug\haarcascade_frontalface_default.xml" />
+    <Content Include="bin\Debug\Emgu.CV.dll" />
+    <Content Include="bin\Debug\Emgu.CV.GPU.dll" />
+    <Content Include="bin\Debug\Emgu.CV.ML.dll" />
+    <Content Include="bin\Debug\Emgu.CV.UI.dll" />
+    <Content Include="bin\Debug\Emgu.CV.UI.xml" />
+    <Content Include="bin\Debug\Emgu.CV.xml" />
+    <Content Include="bin\Debug\Emgu.Util.dll" />
+    <Content Include="bin\Debug\Emgu.Util.xml" />
+    <Content Include="bin\Debug\highgui110.dll" />
+    <Content Include="bin\Debug\opencv_calib3d220.dll" />
+    <Content Include="bin\Debug\opencv_contrib220.dll" />
+    <Content Include="bin\Debug\opencv_core220.dll" />
+    <Content Include="bin\Debug\opencv_features2d220.dll" />
+    <Content Include="bin\Debug\opencv_ffmpeg220.dll" />
+    <Content Include="bin\Debug\opencv_flann220.dll" />
+    <Content Include="bin\Debug\opencv_gpu220.dll" />
+    <Content Include="bin\Debug\opencv_highgui220.dll" />
+    <Content Include="bin\Debug\opencv_imgproc220.dll" />
+    <Content Include="bin\Debug\opencv_legacy220.dll" />
+    <Content Include="bin\Debug\opencv_ml220.dll" />
+    <Content Include="bin\Debug\opencv_objdetect220.dll" />
+    <Content Include="bin\Debug\opencv_video220.dll" />
+    <Content Include="bin\Debug\TrainedFaces\face1.bmp" />
+    <Content Include="bin\Debug\TrainedFaces\face2.bmp" />
+    <Content Include="bin\Debug\TrainedFaces\face3.bmp" />
+    <Content Include="bin\Debug\TrainedFaces\face4.bmp" />
+    <Content Include="bin\Debug\TrainedFaces\TrainedLabels.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
